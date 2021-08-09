@@ -1,5 +1,5 @@
 <img src="https://www.python.org/static/community_logos/python-powered-h-140x182.png" align="right"/>
-<img src="https://brandslogos.com/wp-content/uploads/images/large/replit-logo.png" align="left" height="150" width="150"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png" align="left" height="150" width="150"/>
 
 <h3 align="center">SIMPLE 2FA IN PYTHON</h3>
 
