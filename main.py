@@ -56,9 +56,9 @@ time_taken = dt.datetime.now ()-t
 # 2fa Results
 
 if(fa_answer == fa_generator):
-  print_slow(f"{colors.GREEN}\nNice, 2FA Matches{colors.END}\n")
+  print_slow(f"{colors.GREEN}\nNice, 2FA code matches{colors.END}\n")
   print(f"{colors.WARNING}Time Taken :{colors.END} {colors.CYAN}{time_taken}{colors.END}")
 
 else:
-  print(f"{colors.FAIL}\nBruh, 2FA does not match{colors.END}")
+  print(f"{colors.FAIL}\nBruh, 2FA code does not match{colors.END}")
   print(f"{colors.WARNING}Time Taken :{colors.END} {colors.CYAN}{time_taken}{colors.END}")
