@@ -1,4 +1,5 @@
 <img src="https://www.python.org/static/community_logos/python-powered-h-140x182.png" align="right"/>
+[![Run on Repl.it](https://docs.replit.com/images/repls/run-on-replit.svg)](https://replit.com/@LyQuid/simple-2fa-in-python)
 
 <h3 align="center">SIMPLE 2FA IN PYTHON</h3>
 
