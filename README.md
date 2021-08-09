@@ -1,5 +1,4 @@
 <img src="https://www.python.org/static/community_logos/python-powered-h-140x182.png" align="right"/>
-[![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/github/plibither8/2048.cpp)
 
 <h3 align="center">SIMPLE 2FA IN PYTHON</h3>
 
