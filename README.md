@@ -1,4 +1,4 @@
-<img src="https://www.python.org/static/community_logos/python-powered-h-140x182.png" align="right" height="150" width="150"/>
+<img src="https://www.python.org/static/community_logos/python-powered-h-140x182.png" align="right" height="50" width="25"/>
 
 <h3 align="center">SIMPLE 2FA IN PYTHON</h3>
 
