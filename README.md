@@ -11,4 +11,4 @@
 
 ## About This Project
 
-Simple 2FA Authentication Built In Python. With just 64 lines and your Knowledge of Python you can create 2FA Authentication!
+Simple 2FA Authentication Built In [Python](https://www.python.org/). With just 64 lines and your Knowledge of [Python](https://www.python.org/) you can create 2FA Authentication!
