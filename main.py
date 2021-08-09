@@ -36,7 +36,7 @@ print_slow(f"Made With Python BY LyQuid{colors.END}")
 print("")
 
 # Generate Random 2FA
-fa_generator = "".join(random.choices(
+key_code = "".join(random.choices(
             string.ascii_uppercase + string.digits + string.ascii_lowercase,
             k = 7
 ))
@@ -44,21 +44,22 @@ fa_generator = "".join(random.choices(
 # 2FA
 print(f"\n{colors.BLUE}2FA : {colors.END}")
 print(f"{colors.CYAN}========={colors.END}")
-print_slow(f"{colors.WARNING} {fa_generator}{colors.END}\n")
+print_slow(f"{colors.WARNING} {key_code}{colors.END}\n")
 print(f"{colors.CYAN}========={colors.END}\n")
 
 print_slow(f"{colors.ORANGE}2FA Answer: {colors.END}")
 t = dt.datetime.now()
-fa_answer = input("")
+key_answer = input("")
 
 time_taken = dt.datetime.now ()-t
 
-# 2fa Results
+# 2FA Results
 
-if(fa_answer == fa_generator):
+if(key_answer == key_code):
   print_slow(f"{colors.GREEN}\nNice, 2FA code matches{colors.END}\n")
   print(f"{colors.WARNING}Time Taken :{colors.END} {colors.CYAN}{time_taken}{colors.END}")
+  print("")
 
 else:
-  print(f"{colors.FAIL}\nBruh, 2FA code does not match{colors.END}")
+  print_slow(f"{colors.FAIL}\nBruh, 2FA code does not match{colors.END}\n")
   print(f"{colors.WARNING}Time Taken :{colors.END} {colors.CYAN}{time_taken}{colors.END}")
