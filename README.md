@@ -1,4 +1,4 @@
-[![Run on Repl.it](https://docs.replit.com/images/repls/run-on-replit.svg)](https://replit.com/@LyQuid/simple-2fa-in-python)
+[![Run on Repl.it](https://docs.replit.com/images/repls/run-on-replit.svg)](https://replit.com/@LyQuid/simple-captcha)
 [![](https://img.shields.io/badge/Powered%20By-Python-brightgreen)](https://python.org)
 
 <h3 align="center">SIMPLE CAPTCHA IN PYTHON</h3>
