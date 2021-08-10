@@ -1,7 +1,7 @@
 [![Run on Repl.it](https://docs.replit.com/images/repls/run-on-replit.svg)](https://replit.com/@LyQuid/simple-2fa-in-python)
 [![](https://img.shields.io/badge/Powered%20By-Python-brightgreen)](https://python.org)
 
-<h3 align="center">SIMPLE 2FA IN PYTHON</h3>
+<h3 align="center">SIMPLE Captcha IN PYTHON</h3>
 
 <details open="open">
   <summary>Contents Of This Project</summary>
