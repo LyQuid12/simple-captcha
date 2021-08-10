@@ -31,7 +31,7 @@ class colors:
 
 # Main Menu
 
-print_slow(f"{colors.CYAN}Simple 2FA In Python\n")
+print_slow(f"{colors.CYAN}Simple Captcha Authentication\n")
 print_slow(f"Made With Python BY LyQuid{colors.END}")
 print("")
 
@@ -42,12 +42,12 @@ key_code = "".join(random.choices(
 ))
 
 # 2FA
-print(f"\n{colors.BLUE}2FA : {colors.END}")
+print(f"\n{colors.BLUE}Captcha : {colors.END}")
 print(f"{colors.CYAN}========={colors.END}")
 print_slow(f"{colors.WARNING} {key_code}{colors.END}\n")
 print(f"{colors.CYAN}========={colors.END}\n")
 
-print_slow(f"{colors.ORANGE}2FA Answer: {colors.END}")
+print_slow(f"{colors.ORANGE}Captcha Code: {colors.END}")
 t = dt.datetime.now()
 key_answer = input("")
 
@@ -56,10 +56,10 @@ time_taken = dt.datetime.now ()-t
 # 2FA Results
 
 if(key_answer == key_code):
-  print_slow(f"{colors.GREEN}\nNice, 2FA code matches{colors.END}\n")
+  print_slow(f"{colors.GREEN}\nNice, Captcha code matches{colors.END}\n")
   print(f"{colors.WARNING}Time Taken :{colors.END} {colors.CYAN}{time_taken}{colors.END}")
   print("")
 
 else:
-  print_slow(f"{colors.FAIL}\nBruh, 2FA code does not match{colors.END}\n")
+  print_slow(f"{colors.FAIL}\nBruh, Captcha code does not match{colors.END}\n")
   print(f"{colors.WARNING}Time Taken :{colors.END} {colors.CYAN}{time_taken}{colors.END}")
